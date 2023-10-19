@@ -48,12 +48,14 @@ ul {
   cursor: pointer;
   outline: none;
   cursor: pointer;
+  margin-right: auto;
 }
 .header-button-meny {
   background-color: transparent;
   border: none;
   cursor: pointer;
   outline: none;
+  margin-left: auto;
 }
 .header-container {
   margin-bottom: 15px;
