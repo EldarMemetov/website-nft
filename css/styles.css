@@ -50,6 +50,9 @@ ul {
   cursor: pointer;
   margin-right: auto;
 }
+.img-placeholder-comp{
+  display: none;
+}
 .header-button-meny {
   background-color: transparent;
   border: none;
@@ -62,6 +65,9 @@ ul {
   margin-top: 15px;
   display: flex;
   gap: 60px;
+}
+.comp-menu {
+  display: none;
 }
 /** --------------Section-1--------------- */
 .section-collect {
@@ -153,9 +159,21 @@ ul {
   font-weight: 400;
   line-height: 22.4px;
 }
+.button-started-tablet {
+  display: none;
+}
+.total-item-tablet {
+  display: none;
+}
 /** --------------Section-2--------------- */
 .section-collection {
   padding-bottom: 80px;
+}
+.img-big-dog {
+  margin-bottom: 10px;
+}
+.new-comp-img{
+  display: none;
 }
 .title-collection {
   font-size: 28px;
@@ -174,13 +192,14 @@ ul {
 .container-collection {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   row-gap: 15px;
   margin-bottom: 15px;
 }
 .item-collection {
   display: flex;
   gap: 15px;
+  margin-bottom: 10px;
 }
 
 .button-collection {
@@ -216,9 +235,21 @@ ul {
   gap: 12px;
   margin-left: 16px;
 }
+.tablet-new-img {
+  display: none;
+}
 /** --------------Section-3--------------- */
+.list-creators-comp{
+  display: none;
+}
 .section-top {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
+}
+.button-rankings-tablet {
+  display: none;
+}
+.list-creators-tablet {
+  display: none;
 }
 .title-top {
   font-size: 28px;
@@ -288,6 +319,9 @@ ul {
   line-height: 140%; /* 22.4px */
   margin-left: auto;
   margin-right: auto;
+}
+.comp-img-avatar{
+  display: none;
 }
 /** --------------Section-4--------------- */
 .section-categories {
@@ -442,6 +476,12 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+.button-ntfs-tablet {
+  display: none;
+}
+.works-img-comp{
+  display: none;
+}
 /** --------------Section-5--------------- */
 .section-magic {
   padding-bottom: 40px;
@@ -480,6 +520,9 @@ ul {
   border: none;
   margin-left: auto;
   margin-right: auto;
+}
+.container-tablet-clock {
+  display: none;
 }
 /** --------------Section-6--------------- */
 .section-works {
@@ -674,7 +717,6 @@ ul {
   font-weight: 700;
   line-height: 35.2px;
   text-transform: capitalize;
-  text-align: center;
   margin-bottom: 20px;
 }
 .join-footer-info {

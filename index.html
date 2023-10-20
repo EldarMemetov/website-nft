@@ -18,6 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header>
@@ -29,13 +30,27 @@
                 <use href="./img/icon.svg#icon-marketplace"></use>
               </svg>
             </button>
+            <div class='comp-menu'>
+            <ul class="item-header-link">
+              <li>
+                <a href="" class="header-link link">Marketplace</a>
+              </li>
+              <li>
+                <a href="" class="header-link link">Rankings</a>
+              </li>
+              <li>
+                <a href="" class="header-link link">Connect a wallet</a>
+              </li>
+            </ul>
+          
             <button type="button" class="header-button-meny">
               <svg class="main-header-icon" width="24" height="24">
                 <use href="./img/icon.svg#icon-burger-menu"></use>
               </svg>
             </button>
+            </div>
           </div>
-          <!-- <div>
+          <!-- <div class='mob-menu'>
             <ul>
               <li>
                 <a href="">Marketplace</a>
@@ -48,20 +63,40 @@
               </li>
             </ul>
           </div> -->
+          
         </nav>
       </div>
     </header>
     <main>
+
       <section class="section-collect">
         <div class="container">
+          <div class="tablet-info">
+            <div>
           <h1 class="title-digital">Discover digital art & Collect NFTs</h1>
           <p class="info-dijital">
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
           </p>
-
+          <button type="button" class="button-started-tablet">Get Started</button>
+          <ul class="total-item-tablet">
+            <li class="total-list-tablet">
+              <h3 class="number-tablet">240k+</h3>
+              <p class="total-title">Total Sale</p>
+            </li>
+            <li class="total-list-tablet">
+              <h3 class="number-tablet">100k+</h3>
+              <p class="total-title-tablet">Auctions</p>
+            </li>
+            <li class="total-list-tablet">
+              <h3 class="number-tablet">240k+</h3>
+              <p class="total-title-tablet">Artists</p>
+            </li>
+          </ul>
+          </div>
           <div class="container-spicy">
-            <img src="./img/placeholder.png" alt="" width="315" height="206" />
+            <img src="./img/placeholder.png" alt="" width="315" height="206" class="img-placeholder-tablet"/>
+            <img src="./img/placeholder-comp.png" alt="" width="510" height="400" class="img-placeholder-comp"/>
             <div class="container-spicy-next">
               <h2 class="title-spicy">Space Walking</h2>
               <div class="container-spicy-small">
@@ -69,6 +104,7 @@
                 <p class="info-spicy">Animakid</p>
               </div>
             </div>
+          </div>
           </div>
           <button type="button" class="button-started">Get Started</button>
           <ul class="total-item">
@@ -90,41 +126,72 @@
 
       <section class="section-collection">
         <div class="container">
-          <div class="container-collection">
+          <div class="container-collection">   
             <h2 class="title-collection">Trending Collection</h2>
             <p class="title-info-collection">
               Checkout our weekly updated trending collection.
             </p>
-
-            <img src="./img/dog-big.png" alt="" width="315" height="315" />
-
+            <div class="container-block">
+            <div class="tablet-new-img">
+              <img src="./img/img-grip-big.png" alt="" width="315" height="315" class="grip-tablet-img">
+              <div class="tablet-next-img">
+              <img src="./img/img-grip-small.png" alt="" width="95" height="95">
+              <img src="./img/grip-small-next.png" alt="" width="95" height="95">
+              <button type="button" class="collection-tablet-button">6+</button>
+              </div>
+              <h3 class="title-animals-tablet">Magic Mushrooms</h3>
+          <div class="img-title-tablet">
+            <img src="./img/avatar-next-man.png" alt="" width="24" height="24" />
+            <p class="info-animals-tablet">MrFox</p>
+          </div>
+            </div>
+            <div class="container-tablet-ntfs">
+            <img src="./img/dog-big.png" alt="" width="315" height="315" class="img-big-dog" />
             <div class="item-collection">
               <img src="./img/cat-small.png" alt="" width="95" height="95" />
-
               <img src="./img/bear-small.png" alt="" width="95" height="95" />
-
               <button type="button" class="button-collection">1025+</button>
             </div>
-          </div>
-          <h3 class="title-animals">DSGN Animals</h3>
+            <h3 class="title-animals">DSGN Animals</h3>
           <div class="img-title">
             <img src="./img/small-photo.png" alt="" width="24" height="24" />
             <p class="info-animals">MrFox</p>
+          </div>
+          </div>
+
+          <div class="new-comp-img">
+            <img src="./img/robot-comp-big.png" alt="" width="315" height="315" class="grip-tablet-img">
+            <div class="tablet-next-img">
+            <img src="./img/robot-comp-small.png" alt="" width="95" height="95">
+            <img src="./img/robot-comp-small-next.png" alt="" width="95" height="95">
+            <button type="button" class="collection-tablet-button">6+</button>
+            </div>
+            <h3 class="title-animals-tablet">Disco Machines</h3>
+        <div class="img-title-tablet">
+          <img src="./img/robot-comp-man.png" alt="" width="24" height="24" />
+          <p class="info-animals-tablet">BeKind2Robots</p>
+        </div>
+          </div>
+          </div>
           </div>
         </div>
       </section>
 
       <section class="section-top">
         <div class="container">
-          <div>
+          <div class="top-tablet-container">
             <h2 class="title-top">Top creators</h2>
+            <div class="container-button-collection">
             <p class="info-title-top">
               Checkout Top Rated Creators on the NFT Marketplace
             </p>
+            <button type="button" class="button-rankings-tablet">View Rankings</button>
+            </div>
           </div>
           <ul class="item-creators">
             <li class="list-creators">
-              <img src="./img/avatar-one.png" alt="" width="60" height="60" />
+              <img src="./img/avatar-one.png" alt="" width="60" height="60"  class="tablet-mob-img"/>
+              <img src="./img/avatar/one.png" alt="" width="120" height="120" class="comp-img-avatar" />
               <div class="container-small-creators">
                 <h3 class="info-titlo-people">Keepitreal</h3>
                 <p class="info-sales-people">
@@ -133,7 +200,8 @@
               </div>
             </li>
             <li class="list-creators">
-              <img src="./img/avatar-two.png" alt="" width="60" height="60" />
+              <img src="./img/avatar-two.png" alt="" width="60" height="60" class="tablet-mob-img" />
+              <img src="./img/avatar/two.png" alt="" width="120" height="120" class="comp-img-avatar" />
               <div class="container-small-creators">
                 <h3 class="info-titlo-people">DigiLab</h3>
                 <p class="info-sales-people">
@@ -142,7 +210,8 @@
               </div>
             </li>
             <li class="list-creators">
-              <img src="./img/avatar-three.png" alt="" width="60" height="60" />
+              <img src="./img/avatar-three.png" alt="" width="60" height="60" class="tablet-mob-img" />
+              <img src="./img/avatar/three.png" alt="" width="120" height="120" class="comp-img-avatar" />
               <div class="container-small-creators">
                 <h3 class="info-titlo-people">GravityOne</h3>
 
@@ -152,7 +221,8 @@
               </div>
             </li>
             <li class="list-creators">
-              <img src="./img/avatar-four.png" alt="" width="60" height="60" />
+              <img src="./img/avatar-four.png" alt="" width="60" height="60" class="tablet-mob-img" />
+              <img src="./img/avatar/four.png" alt="" width="120" height="120" class="comp-img-avatar" />
               <div class="container-small-creators">
                 <h3 class="info-titlo-people">Juanie</h3>
                 <p class="info-sales-people">
@@ -161,11 +231,78 @@
               </div>
             </li>
             <li class="list-creators">
-              <img src="./img/avatar-five.png" alt="" width="60" height="60" />
+              <img src="./img/avatar-five.png" alt="" width="60" height="60" class="tablet-mob-img" />
+              <img src="./img/avatar/five.png" alt="" width="120" height="120" class="comp-img-avatar" />
               <div class="container-small-creators">
                 <h3 class="info-titlo-people">BlueWhale</h3>
                 <p class="info-sales-people">
                   Total Sales:<span>22.22 ETH</span>
+                </p>
+              </div>
+            </li>
+             <li class="list-creators-tablet">
+              <img src="./img/lisa.png" alt="" width="60" height="60" class="tablet-mob-img" />
+              <img src="./img/avatar/six.png" alt="" width="120" height="120" class="comp-img-avatar" />
+              <div class="container-small-creators">
+                <h3 class="info-titlo-people">Mr Fox</h3>
+                <p class="info-sales-people">
+                  Total Sales:<span>19.28 ETH</span>
+                </p>
+              </div>
+            </li>
+
+
+            <li class="list-creators-comp">
+              <img src="./img/avatar/seven.png" alt="" width="120" height="120" class="comp-img-avatar" />
+              <div class="container-small-creators">
+                <h3 class="info-titlo-people">Ghiblier</h3>
+                <p class="info-sales-people">
+                  Total Sales:<span>34.53 ETH</span>
+                </p>
+              </div>
+            </li>
+            <li class="list-creators-comp">
+              <img src="./img/avatar/eight.png" alt="" width="120" height="120" class="comp-img-avatar" />
+              <div class="container-small-creators">
+                <h3 class="info-titlo-people">Shroomie</h3>
+                <p class="info-sales-people">
+                  Total Sales:<span>34.53 ETH</span>
+                </p>
+              </div>
+            </li>
+            <li class="list-creators-comp">
+              <img src="./img/avatar/nine-ten.png" alt="" width="120" height="120" class="comp-img-avatar" />
+              <div class="container-small-creators">
+                <h3 class="info-titlo-people">robotica</h3>
+                <p class="info-sales-people">
+                  Total Sales:<span>34.53 ETH</span>
+                </p>
+              </div>
+            </li>
+            <li class="list-creators-comp">
+              <img src="./img/avatar/eleven.png" alt="" width="120" height="120" class="comp-img-avatar" />
+              <div class="container-small-creators">
+                <h3 class="info-titlo-people">RustyRobot</h3>
+                <p class="info-sales-people">
+                  Total Sales:<span>19.28 ETH</span>
+                </p>
+              </div>
+            </li>
+            <li class="list-creators-comp">
+              <img src="./img/avatar/twelve.png" alt="" width="120" height="120" class="comp-img-avatar" />
+              <div class="container-small-creators">
+                <h3 class="info-titlo-people">Dotgu</h3>
+                <p class="info-sales-people">
+                  Total Sales:<span>34.53 ETH</span>
+                </p>
+              </div>
+            </li>
+            <li class="list-creators-comp">
+              <img src="./img/avatar/ten.png" alt="" width="120" height="120" class="comp-img-avatar" />
+              <div class="container-small-creators">
+                <h3 class="info-titlo-people">Animakid</h3>
+                <p class="info-sales-people">
+                  Total Sales:<span>34.53 ETH</span>
                 </p>
               </div>
             </li>
@@ -283,10 +420,14 @@
 
       <section class="section-nfts">
         <div class="container">
+          <div class="container-ntfs-button">
+            <div>
           <h2 class="title-ntfs">Discover More NFTs</h2>
           <p class="title-info-ntfs">Explore new trending NFTs</p>
+          </div>
+          <button type="button" class="button-ntfs-tablet">See All</button>
+          </div>
           <ul class="item-ntfs">
-
             <li class="list-ntfs">
               <img
                 src="./img/image-astro.png"
@@ -348,7 +489,7 @@
               </div>
             </li>
 
-            <li class="list-ntfs">
+            <li class="list-ntfs tablet-no">
               <img src="./img/image-girl.png" alt="" width="315" height="238" />
               <div>
                 <h3 class="title-galaxy">AstroFiction</h3>
@@ -380,9 +521,19 @@
 
       <section class="section-magic">
         <div class="container">
+          <div class="container-tel-clock">
           <h2 class="title-magic">Magic Mashrooms</h2>
           <img src="./img/timer.png" alt="" width="315" height="147" class="img-clock"/>
           <button type="button" class="botton-mugic">See NFT</button>
+          </div>
+
+          <div class="container-tablet-clock">
+          <div>
+          <h2 class="title-magic">Magic Mashrooms</h2>
+          <button type="button" class="botton-mugic">See NFT</button>
+          </div>
+          <img src="./img/timer.png" alt="" width="315" height="147" class="img-clock"/>
+          </div>
         </div>
       </section>
 
@@ -393,7 +544,9 @@
           <ul class="item-setup">
             <li class="list-setup">
               <div class="container-small-setup">
-              <img src="./img/wallet.png" alt="" width="100" height="100" />
+              <img src="./img/wallet.png" alt="" width="100" height="100" class="works-img-tablet"/>
+              <img src="./img/wallet-comp.png" alt="" width="208" height="208" class="works-img-comp"/>
+
               <div>
                 <h2 class="title-setup">Setup Your wallet</h2>
                 <p class="info-setup">
@@ -405,10 +558,11 @@
             </li>
             <li class="list-setup">
               <div class="container-small-setup">
-              <img src="./img/shopping.png" alt="" width="100" height="100" />
+              <img src="./img/shopping.png" alt="" width="100" height="100" class="works-img-tablet"/>
+              <img src="./img/music-comp.png" alt="" width="208" height="208" class="works-img-comp"/>
               <div>
-                <h2>Create Collection</h2>
-                <p>
+                <h2 class="title-setup">Create Collection</h2>
+                <p class="info-setup">
                   Upload your work and setup your collection. Add a description,
                   social links and floor price.
                 </p>
@@ -417,10 +571,11 @@
             </li>
             <li class="list-setup">
             <div class="container-small-setup">
-              <img src="./img/music.png" alt="" width="100" height="100" />
+              <img src="./img/music.png" alt="" width="100" height="100" class="works-img-tablet"/>
+              <img src="./img/eats-comp.png" alt="" width="208" height="208" class="works-img-comp"/>
               <div>
-                <h2>Start Earning</h2>
-                <p>
+                <h2 class="title-setup">Start Earning</h2>
+                <p class="info-setup">
                   Choose between auctions and fixed-price listings. Start
                   earning by selling your NFTs or trading others.
                 </p>
@@ -433,9 +588,12 @@
 
       <section class="section-join">
         <div class="container">
+          <div class="container-astronavt-table">
           <img src="./img/big-cosmonavt.png" alt="" width="315" height="255" class="img-cosmonavt"/>
+          <div class="input-button-text">
           <h2 class="title-join">Join our weekly digest</h2>
           <p class="info-join">Get exclusive promotions & updates straight to your inbox.</p>
+          <div class="main-comp-input">
           <form class="main-form">
             <label aria-label="email" class="main-email">
               <input type="email"name="email"
@@ -446,11 +604,15 @@
           </form>
           <button type="button" class="button-input-email">Subscribe</button>
         </div>
+          </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="section-footer">
-      <div class="container">
+      <div class="container maulin">
+        <div>
         <button type="button" class="button-footer-icon">
           <svg class="main-icon" width="150" height="15">
             <use href="./img/icon.svg#icon-marketplace"></use>
@@ -480,6 +642,8 @@
             </svg>
           </li>
         </ul>
+      </div>
+      <div>
         <ul class="footer-menu-item">
           <li>
             <p class="title-explore">Explore</p>
@@ -494,8 +658,11 @@
             <p lass="footer-menu">Connect a wallet</p>
           </li>
         </ul>
+      </div>
+      <div>
         <p class="title-join-footer">Join our weekly digest</p>
         <p class="join-footer-info">Get exclusive promotions & updates straight to your inbox.</p>
+        <div class="input-footer-container">
         <form class="main-form-footer">
             <label aria-label="email" class="main-email-footer">
               <input type="email"name="email"
@@ -505,7 +672,9 @@
             </label>
           </form>
         <button type="button" class="input-email-footer">Subscribe</button>
+        </div>
         <p class="title-market-footer">Ⓒ NFT Market. Use this template freely.</p>
+      </div>
       </div>
     </footer>
   </body>
